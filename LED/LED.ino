@@ -1,4 +1,5 @@
-#define LED 8
+// A porta 13 do Arduino é utilizada para acionar o LED interno da placa.
+#define LED 13
 bool statusLED = false;
 
 void setup() {
