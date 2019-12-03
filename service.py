@@ -3,7 +3,7 @@ from ArduinoSerial import ConnectSerial
 
 app = Flask(__name__)
 
-porta = "/dev/ttyACM0"
+porta = "/dev/ttyUSB0"
 arduino = ConnectSerial(porta, 115200)
 
 @app.route('/')

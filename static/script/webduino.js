@@ -1,11 +1,10 @@
-let toggle
+let toggle = false
 function toggleClick() {
-  toggle = document.getElementById("toggle").value
-  console.log(toggle);
-  
-  if (toggle === "on"){
+  toggle = !toggle
+  if (toggle === true){
     document.getElementById("toggle-label").innerHTML = "LIGADO"
   } else {
     document.getElementById("toggle-label").innerHTML = "DESLIGADO"
   }
 }
+
