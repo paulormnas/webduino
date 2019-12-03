@@ -10,7 +10,7 @@ Após clonar o repositório, instale o virtualenv e inicialize o ambiente virtua
 git clone https://github.com/paulormnas/webduino.git
 cd webduino
 pip3 install virtualenv
-vitualenv -p python3 venv
+virtualenv -p python3 venv
 ```
 
 Em seguida, ative o ambiente virtual e instale as depêndencias necessárias para o projeto. Neste caso vamos instalar as dependências a partir do arquivo "requirements.txt encontrado no repositório.
