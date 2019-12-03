@@ -5,7 +5,7 @@ Neste exemplo é utilizado um serviço desenvolvido com o framework Flask e a bi
 
 A instalação das bibliotecas será realizada utilizando o gerenciador de pacotes pip. Mas antes deve ser inciado um ambiente virtual onde serão armazenadas todas as configurações deste projeto, evitando conflito com as depêndencias instaladas no computador de desenvolvimento. 
 
-Após realizar clonar o repositório, instale o virtualenv e inicialize o ambiente virtual. Os parâmetros passados no comando `virtualenv` são a versão do Python a ser utilizada e o nome do diretório onde são instaladas as configuções e depedências do ambiente virtual.
+Após clonar o repositório, instale o virtualenv e inicialize o ambiente virtual. Os parâmetros passados no comando `virtualenv` são a versão do Python a ser utilizada e o nome do diretório onde são instaladas as configuções e depedências do ambiente virtual.
 ```shell
 git clone https://github.com/paulormnas/webduino.git
 cd webduino
