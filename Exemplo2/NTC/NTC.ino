@@ -1,6 +1,6 @@
 #define TAMANHO 10
-float historico[TAMANHO];
 
+float historico[TAMANHO];
 float temperatura;
 unsigned long tempoInicial;
 
@@ -29,7 +29,7 @@ void lerHistorico(){
     Serial.print(historico[i]);
     Serial.print(" ");
   }
-  Serial.println(" ");
+  Serial.println("");
 }
 
 void setup() {
