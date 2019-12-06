@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 porta = "/dev/ttyUSB0"
 baudrate = 115200
-arduino = ConnectSerial(porta, baudrate)l
+arduino = ConnectSerial(porta, baudrate)
 
 @app.route('/')
 def hello_world():
