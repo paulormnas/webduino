@@ -12,8 +12,22 @@
       <h1>Webduino</h1>
       <h2>Controle de Servo Motor</h2>
     </div>
+
     <div class="card-background">
-      <img src="static/res/led-ambar.png" alt="Figura de LED âmbar">
+        <img id=motor src="../static/res/Sservo.png" alt="Figura de Servo motor">
+        <div class="btn-box">
+          <!-- Buttons -->
+          <button id=btn_esquerdo type="button" onclick="girar_esquerda()">ESQUERDA</button>
+          <button id=btn_direita type="button" onclick="girar_direita()">DIREITA</button>
+        </div>
+    </div>
+
+    <div class="page-title">
+        <h2>Controle de LED</h2>
+    </div>
+
+    <div class="card-background">
+      <img id=led src="../static/res/led-ambar.png" alt="Figura de LED âmbar">
       <div class="toggle-box">
         <!-- Rounded switch -->
         <label class="switch">
@@ -23,5 +37,6 @@
         <label id="toggle-label" class="toggle-text">DESLIGADO</label>
       </div>
     </div>
+
   </body>
 </html>

@@ -14,16 +14,37 @@ h1{
   width: 20%;
   height: 200px;
   margin: auto;
+  margin-top: 20px;
+  padding: 15px;
   background-color: rgba(24, 104, 224, 0.452);
   border-radius: 5px;
   box-shadow: 2px 2px 2px 2px rgba(41, 44, 48, 0.534);
   align-content: center;
 }
 
-img{
+#motor{
+  position: relative;
+  left: 4.5em;
+  width: 50%;
+  margin: auto;
+
+}
+
+div .btn-box{
+  position: relative;
+  margin: auto;
+  left: 1em;
+  align-self: center;
+  width: 80%;
+}
+
+button{
+  margin: 8px;
+}
+
+#led{
   position: relative;
   width: 15%;
-  /* height: auto; */
   margin: 16px;
 }
 
@@ -107,3 +128,4 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 } 
+
