@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Webduino</title>
+    <link rel="stylesheet" type="text/css" href="../static/style/index.css">
+    <script type="text/javascript" src="../static/script/webduino_servo.js"></script>
+  </head>
+
+  <body>
+    <div class="page-title">
+      <h1>Webduino</h1>
+      <h2>Controle de Servo Motor</h2>
+    </div>
+    <div class="card-background">
+      <img src="static/res/led-ambar.png" alt="Figura de LED âmbar">
+      <div class="toggle-box">
+        <!-- Rounded switch -->
+        <label class="switch">
+          <input id="toggle" type="checkbox" onclick="toggleClick()">
+          <span class="slider round"></span>
+        </label>
+        <label id="toggle-label" class="toggle-text">DESLIGADO</label>
+      </div>
+    </div>
+  </body>
+</html>
