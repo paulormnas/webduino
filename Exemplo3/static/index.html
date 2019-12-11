@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Webduino</title>
+    <link rel="stylesheet" type="text/css" href="../static/style/index.css">
+    <script type="text/javascript" src="../static/script/webduino_servo.js"></script>
+  </head>
+
+  <body>
+    <div class="page-title">
+      <h1>Webduino</h1>
+      <h2>Monitor de temperatura</h2>
+    </div>
+
+    <div class="card-background">
+        <img id="termo" src="../static/res/thermometer_icon.png" alt="Figura de termômetro">
+        <div class="text-box">
+          <!-- labels -->
+          <p id="value" class="value">23</p>
+          <p class="unit">ºC</p>
+        </div>
+        <button class="btn-update" onclick="update()">ATUALIZAR</button>
+    </div>
+  </body>
+</html>

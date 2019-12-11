@@ -1,0 +1,73 @@
+.page-title{
+  margin: auto;
+  width: 80%;
+  text-align: center;
+}
+
+h1{
+  font-size: 3em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #3155e4;
+}
+
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #3155e4;
+}
+
+.card-background{
+  width: 35%;
+  height: 250px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(24, 104, 224, 0.452);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(41, 44, 48, 0.534);
+  align-content: center;
+}
+
+#termo{
+  display: inline;
+  position: relative;
+  margin: auto;
+  height: 65%;
+  padding-top: 16px;
+}
+
+div .text-box{
+  position: relative;
+  display: inline;
+  margin: 4px;
+  right: 1em;
+  align-self: center;
+  bottom: 2em;
+}
+
+p{
+  display: inline-block;
+  position: relative;
+  margin: 8px;
+}
+
+p.value{
+  font-size: 5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #3155e4;
+}
+
+p.unit{
+  font-size: 3em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #3155e4;
+}
+
+button.btn-update{
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 30%;
+  left: 2em;
+  padding: 4px;
+  border-radius: 15px;
+}
